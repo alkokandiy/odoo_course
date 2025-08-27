@@ -9,6 +9,7 @@
     'website': 'http://localhost',
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
         'views/school_views.xml',
     ],
     'installable': True,
