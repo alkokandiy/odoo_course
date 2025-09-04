@@ -8,11 +8,3 @@ class FoodProduct(models.Model):
     description = fields.Text(string="Description")
     price = fields.Float(string="Price", required=True)
     quantity = fields.Integer(string="Quantity in Stock", default=0)
-    category = fields.Selection([
-        ('fruit', 'Fruit'),
-        ('vegetable', 'Vegetable'),
-        ('meat', 'Meat'),
-        ('dairy', 'Dairy'),
-        ('beverage', 'Beverage'),
-        ('other', 'Other'),
-    ], string="Category", default='other')
