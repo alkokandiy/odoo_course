@@ -1,0 +1,10 @@
+<odoo>
+    <menuitem id="menu_food_store_root" name="Food Store" />
+
+    <menuitem
+        id="menu_food_products"
+        name="Products"
+        parent="menu_food_store_root"
+        action="action_food_product"
+    />
+</odoo>
