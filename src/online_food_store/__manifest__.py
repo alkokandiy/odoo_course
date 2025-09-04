@@ -1,7 +1,5 @@
 {
     'name': 'Online Food Store',
-    'summary': 'Manage products in an online food store',
-    'sequence': -100,
     'description': """Manage online food store products""",
     'depends': ['base'],
     'data': [
