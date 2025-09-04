@@ -1,0 +1,21 @@
+<odoo>
+    <menuitem id="menu_gundealership_root" name="Gun Dealership" />
+    <menuitem
+        id="menu_gundealership_gun"
+        name="Guns"
+        parent="menu_gundealership_root"
+        action="action_gun"
+    />
+    <menuitem
+        id="menu_gundealership_dealer"
+        name="Dealers"
+        parent="menu_gundealership_root"
+        action="action_dealer"
+    />
+    <menuitem
+        id="menu_gundealership_customer"
+        name="Customers"
+        parent="menu_gundealership_root"
+        action="action_customer"
+    />
+</odoo>

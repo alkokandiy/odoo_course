@@ -2,20 +2,22 @@
     <record id="view_food_product_tree" model="ir.ui.view">
         <field name="name">food.product.tree</field>
         <field name="model">food.product</field>
+        <field name="type">list</field>
         <field name="arch" type="xml">
-            <tree string="Food Products">
+            <list string="Food Products">
                 <field name="name" />
                 <field name="category" />
                 <field name="price" />
                 <field name="quantity" />
                 <field name="available" />
-            </tree>
+            </list>
         </field>
     </record>
 
     <record id="view_food_product_form" model="ir.ui.view">
         <field name="name">food.product.form</field>
         <field name="model">food.product</field>
+        <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="Food Product">
                 <sheet>
@@ -37,6 +39,6 @@
     <record id="action_food_product" model="ir.actions.act_window">
         <field name="name">Food Products</field>
         <field name="res_model">food.product</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 </odoo>

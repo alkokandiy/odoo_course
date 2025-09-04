@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_gun,gundealership.gun,model_gun_dealership_gun,base.group_user,1,1,1,1
+access_dealer,gundealership.dealer,model_gun_dealership_dealer,base.group_user,1,1,1,1
+access_customer,gundealership.customer,model_gun_dealership_customer,base.group_user,1,1,1,1
