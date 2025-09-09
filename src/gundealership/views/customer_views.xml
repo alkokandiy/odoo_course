@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <record id="view_form_customer" model="ir.ui.view">
         <field name="name">customer.form</field>
@@ -20,18 +21,18 @@
         <field name="name">customer.tree</field>
         <field name="model">gun.dealership.customer</field>
         <field name="arch" type="xml">
-            <tree>
+            <list>
                 <field name="name" />
                 <field name="codename" />
                 <field name="affiliation" />
                 <field name="favorite_weapon" />
-            </tree>
+            </list>
         </field>
     </record>
 
     <record id="action_customer" model="ir.actions.act_window">
         <field name="name">Customers</field>
         <field name="res_model">gun.dealership.customer</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">list,form</field>
     </record>
 </odoo>
