@@ -9,16 +9,18 @@
                     <group>
                         <field name="name" />
                         <field name="country" />
-                        <field name="license_no" />
                     </group>
                     <notebook>
                         <page string="Guns">
                             <field name="gun_ids">
-                                <tree>
-                                    <field name="name" />
-                                    <field name="type" />
-                                    <field name="price" />
-                                </tree>
+                                <list>
+                                <field name="name" />
+                                <field name="type" />
+                                <field name="caliber" />
+                                <field name="price" />
+                                <field name="stock" />
+                                <field name="dealer_id" />
+                                </list>
                             </field>
                         </page>
                     </notebook>
@@ -34,7 +36,6 @@
             <list>
                 <field name="name" />
                 <field name="country" />
-                <field name="license_no" />
             </list>
         </field>
     </record>
