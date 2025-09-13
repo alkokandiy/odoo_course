@@ -32,5 +32,3 @@ class UzumProduct(models.Model):
     ])
     rating = fields.Float("Rating", default=0.0)
     description = fields.Text()
-
-dealer_id = fields.Many2one("uzum.dealer", string="Dealer")

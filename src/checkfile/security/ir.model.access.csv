@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_checkfile_checkfile,checkfile.checkfile,model_checkfile_checkfile,base.group_user,1,1,1,1
+school_document_user,school_document_user,model_school_document,group_school_document_user,1,0,0,0
+school_document_manager,school_document_manager,model_school_document,group_school_document_manager,1,1,1,1
